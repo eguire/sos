@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="SOS is online battle royale game. In SOS: BR, You are 1 of 32 players on La Cuna Island, forced to fight to the death. Along with your wits, you will have to equip yourself.">
 	<title>SOS | Official page of the best online Battle Royale game</title>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -18,33 +19,43 @@
 
 				<nav class="header__menu menu">
 					<ul class="header__menu-list menu__list">
-						<li class="header__menu-item menu__item"><a class="menu__link" href="#hero-section">main</a></li>
-						<li class="header__menu-item menu__item"><a class="menu__link" href="#about-section">about</a></li>
-						<li class="header__menu-item menu__item"><a class="menu__link" href="#features-section">game features</a></li>
-						<li class="header__menu-item menu__item"><a class="menu__link" href="#requirements-section">System requirements</a></li>
-						<li class="header__menu-item menu__item"><a class="menu__link" href="#quotes-section">quotes</a></li>
+						<li class="header__menu-item menu__item">
+							<a class="header__menu-link menu__link" href="#hero-section" >main</a>
+						</li>
+						<li class="header__menu-item menu__item">
+							<a class="header__menu-link menu__link" href="#about-section">about</a>
+						</li>
+						<li class="header__menu-item menu__item">
+							<a class="header__menu-link menu__link" href="#features-section">game features</a>
+						</li>
+						<li class="header__menu-item menu__item">
+							<a class="header__menu-link menu__link" href="#requirements-section">System requirements</a>
+						</li>
+						<li class="header__menu-item menu__item">
+							<a class="header__menu-link menu__link" href="#quotes-section">quotes</a>
+						</li>
 					</ul>
 				</nav>
 
 				<div class="header__additional">
 					<div class="header__lang">
-						<span class="header__current-lang">eng</span>
+						<span class="header__current-lang" data-language="en">eng</span>
 						<ul class="header__lang-list">
-							<li class="header__lang-item">rus</li>
-							<li class="header__lang-item">fra</li>
-							<li class="header__lang-item">deu</li>
+							<li class="header__lang-item" data-language="ru">rus</li>
+							<li class="header__lang-item" data-language="de">deu</li>
+							<li class="header__lang-item" data-language="fr">fra</li>
 						</ul>
 					</div>
 					<ul class="header__stores">
 						<li class="header__stores-item">
-							<a class="header__stores-link header__stores-link--xbox" href="#"></a>
+							<a class="header__stores-link header__stores-link--xbox" href="#"><span class="sr-only">Buy in xbox store</span></a>
 						</li>
 						<li class="header__stores-item">
-							<a class="header__stores-link header__stores-link--steam" href="#"></a>
+							<a class="header__stores-link header__stores-link--steam" href="#"><span class="sr-only">Buy in steam</span></a>
 						</li>
 					</ul>
 				</div>
-				<button class="burger" type="button"></button>
+				<button class="burger" type="button"><span class="sr-only">Menu</span></button>
 
 			</div>
 		</div>
@@ -311,7 +322,7 @@
 					</p>
 
 					<form class="subscribe__form">
-						<input class="subscribe__input" type="email" required>
+						<input class="subscribe__input" type="email" required name="subscribe__input">
 						<button class="subscribe__btn yellow-btn" type="submit">Subscribe now</button>
 					</form>
 					
@@ -338,16 +349,24 @@
 
 				<ul class="social footer__social">
 					<li class="social__item">
-						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#facebook-icon');"></a>
+						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#facebook-icon');">
+						<span class="sr-only">Our facebook</span>
+					</a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#twitter-icon');"></a>
+						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#twitter-icon');">
+						<span class="sr-only">Our twitter</span>
+					</a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#youtube-icon');"></a>
+						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#youtube-icon');">
+						<span class="sr-only">Our youtube</span>
+					</a>
 					</li>
 					<li class="social__item">
-						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#twitch-icon');"></a>
+						<a class="social__link" href="#" style="-webkit-mask-image: url('images/sprite.svg#twitch-icon');">
+						<span class="sr-only">Our twitch</span>
+					</a>
 					</li>
 				</ul>
 
